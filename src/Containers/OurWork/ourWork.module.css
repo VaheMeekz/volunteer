@@ -1,0 +1,236 @@
+.section_1 {
+  width: 100%;
+  background-color: #00596b;
+  text-align: center;
+}
+.big_div {
+  position: relative;
+}
+
+.big_div img {
+  width: 50%;
+  border: solid 2px #fff;
+  border-radius: 100%;
+}
+.item1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 80px;
+  padding: 10px;
+  background: #fff;
+  font-size: 11px;
+  color: black;
+  position: absolute;
+  left: 43%;
+  top: -20px;
+  border: 1px solid green;
+  cursor: pointer;
+  text-align: center;
+}
+
+.item2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 80px;
+  padding: 10px;
+  background: #fff;
+  font-size: 11px;
+  color: black;
+  position: absolute;
+  left: 60%;
+  top: 50px;
+  border: 1px solid green;
+  cursor: pointer;
+  text-align: center;
+}
+
+.item3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 80px;
+  padding: 10px;
+  background: #fff;
+  font-size: 11px;
+  color: black;
+  position: absolute;
+  left: 65%;
+  top: 30%;
+  border: 1px solid green;
+  cursor: pointer;
+  text-align: center;
+}
+.item4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 80px;
+  padding: 10px;
+  background: #fff;
+  font-size: 11px;
+  color: black;
+  position: absolute;
+  left: 70%;
+  top: 50%;
+  border: 1px solid green;
+  cursor: pointer;
+  text-align: center;
+}
+
+.item5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 80px;
+  padding: 10px;
+  background: #fff;
+  font-size: 11px;
+  color: black;
+  position: absolute;
+  left: 63%;
+  top: 75%;
+  border: 1px solid green;
+  cursor: pointer;
+  text-align: center;
+}
+
+.item6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 80px;
+  padding: 10px;
+  background: #fff;
+  font-size: 11px;
+  color: black;
+  position: absolute;
+  left: 42%;
+  bottom: -20px;
+  border: 1px solid green;
+  cursor: pointer;
+  text-align: center;
+}
+/* ============== */
+
+.item7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 80px;
+  padding: 10px;
+  background: #fff;
+  font-size: 11px;
+  color: black;
+  position: absolute;
+  right: 61%;
+  top: 50px;
+  border: 1px solid green;
+  cursor: pointer;
+  text-align: center;
+}
+
+.item8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 80px;
+  padding: 10px;
+  background: #fff;
+  font-size: 11px;
+  color: black;
+  position: absolute;
+  right: 66%;
+  top: 30%;
+  border: 1px solid green;
+  cursor: pointer;
+  text-align: center;
+}
+.item9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 80px;
+  padding: 10px;
+  background: #fff;
+  font-size: 11px;
+  color: black;
+  position: absolute;
+  right: 70%;
+  top: 52%;
+  border: 1px solid green;
+  cursor: pointer;
+  text-align: center;
+}
+
+.item10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 80px;
+  padding: 10px;
+  background: #fff;
+  font-size: 11px;
+  color: black;
+  position: absolute;
+  right: 62%;
+  top: 75%;
+  border: 1px solid green;
+  cursor: pointer;
+  text-align: center;
+}
+.ul {
+  padding: 0;
+}
+.ul li {
+  color: black;
+}
+
+@media (max-width: 990px) {
+  .big_div {
+  
+    position: none;
+    padding: 6rem 0 0rem 0;
+
+  }
+
+  .big_div img {
+    display: none;
+  }
+  .section_1 {
+    padding: 6rem 0 2rem 0;
+    background-image: url("https://cdn.pixabay.com/photo/2014/04/17/23/26/environmental-protection-326923_960_720.jpg");
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6,
+  .item7,
+  .item8,
+  .item9,
+  .item10 {
+    position: unset !important;
+    left: 14px !important;
+    top: 0 !important;
+    margin: 0 auto;
+    text-align: center;
+    width: 60% !important;
+    margin: 0px auto 0px 40px;
+}
+
+  } 
+

@@ -1,0 +1,12 @@
+export const HOME_BULID = "HOME_BULID";
+export const BANNER_HOME = "BANNER_HOME";
+export const HOME_ABOUT = "HOME_ABOUT";
+export const PARTNERS_DATA = "PARTNERS_DATA";
+export const PROJECTS_DATA = "PROJECTS_DATA";
+export const NEWS_DATA = "NEWS_DATA";
+export const OURWORK_DATA = "OURWORK_DATA";
+export const ABOUT_US = "ABOUT_US";
+export const DOWNLOAD_PDF = "DOWNLOAD_PDF";
+export const ABOUT_BANNER = "ABOUT_BANNER";
+export const GET_EVETS = "GET_EVETS";
+export const GET_SINGLE_EVENT = "GET_SINGLE_EVENT";

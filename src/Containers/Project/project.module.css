@@ -1,0 +1,33 @@
+/* .card {
+  height: 400px;
+  background-image: url("https://www.collinsdictionary.com/images/full/garden_116164459.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+} */
+.card_name {
+  color: #fff;
+  max-width: 300px;
+  padding: 40px 0 20px 20px !important;
+}
+.text {
+  color: #fff;
+  max-width: 300px;
+  padding: 40px 0 20px 20px !important;
+}
+.see_more {
+  color: #fff;
+  padding: 10px 30px;
+  background: #03b4a0;
+  margin-left: 30px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+@media (max-width: 988px) {
+  .project_section {
+    padding: 3rem 0 0 0;
+    margin-bottom: 30px;
+  }
+}

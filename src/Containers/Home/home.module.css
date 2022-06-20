@@ -1,0 +1,435 @@
+.section {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.best_sale_box {
+  width: 100%;
+}
+.sal_img_blco {
+  width: 100%;
+  position: relative;
+}
+.sal_img_blco img {
+  width: 100% !important;
+  height: 80vh !important;
+  object-fit: cover;
+}
+
+.mainDiv {
+  width: 100% !important;
+}
+.title_slider {
+  position: absolute;
+  left: 7%;
+  top: 17%;
+  color: #fff;
+  max-width: 600px;
+  line-height: 50px;
+  font-size: 40px;
+}
+
+.subtitle_slider {
+  color: #fff;
+}
+
+.subtitle_blcok {
+  position: absolute;
+  width: 70%;
+  left: 7%;
+  bottom: 20%;
+  display: flex;
+  align-items: center;
+}
+.line {
+  height: 2px;
+  width: 70%;
+  background: #fff;
+  margin-left: 15px;
+}
+
+.name_two_block {
+  display: flex;
+  align-items: center;
+}
+.line_two {
+  width: 100px;
+  height: 1px;
+  background: black;
+}
+.just_name {
+  margin-left: 15px;
+}
+.title_two {
+  font-size: 40px;
+  margin: 1rem 0 !important;
+}
+
+.text_two {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  color: #525560;
+  margin: 20px 0;
+}
+.img_two {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 578px;
+  object-fit: cover;
+  padding-left: 20%;
+}
+.img_two img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+.more {
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: #fff;
+  background: #03b4a0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: right;
+  color: #ffffff;
+}
+.partner_name_block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 3rem 0 1rem 0;
+}
+.partner_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1d2130;
+  margin: 0 !important;
+}
+.partner_line {
+  width: 80%;
+  height: 2px;
+  border: 1px solid #e5e5e5;
+  transform: rotate(180deg);
+  margin-left: 15px;
+}
+.partner_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.partner_block img {
+  width: 50%;
+  height: 60px;
+  object-fit: cover;
+}
+.section_two {
+  margin: 0 0 3rem 0;
+}
+.item_name_block {
+  display: flex;
+  align-items: center;
+}
+
+.item_name_block img {
+  width: 40px;
+  height: 40px;
+}
+.item_name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1d2130;
+  margin-left: 15px;
+}
+
+.infotext {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+.section_three {
+  background: #d7ece5;
+  padding: 20px 0;
+}
+.question_block {
+  display: flex;
+  cursor: pointer;
+}
+.question_block img {
+  width: 30px;
+  height: 30px;
+}
+.question_block p {
+  margin-left: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #15976b;
+}
+.question_title {
+  margin: 30px 0;
+}
+.project_name_block {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.project_line {
+  width: 100px;
+  height: 2px;
+  background: black;
+}
+.project_name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1d2130;
+  margin-left: 15px;
+}
+.project_name_two {
+  max-width: 600px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 120%;
+  color: #1d2130;
+  margin: 30px 0;
+}
+.card {
+  height: 400px;
+  background-image: url("https://www.collinsdictionary.com/images/full/garden_116164459.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.card_name {
+  color: #fff;
+  max-width: 300px;
+  padding: 40px 0 20px 20px !important;
+}
+.text {
+  color: #fff;
+  max-width: 300px;
+  padding: 40px 0 20px 20px !important;
+}
+.see_more {
+  color: #fff;
+  padding: 10px 30px;
+  background: #03b4a0;
+  margin-left: 30px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.red_news_title {
+  margin: 4rem 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 140%;
+  color: #1d2130;
+}
+.news_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1c1d28;
+}
+.news_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #525560;
+}
+.news_img_block img {
+  border-radius: 10px;
+}
+
+.Eventd_First_block {
+  width: 100%;
+  background: #aeddd7;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.title_block {
+  display: flex;
+  padding-top: 30px;
+}
+.title_block p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1d2130;
+  /* margin-top: 20px; */
+  margin-left: 5px;
+}
+
+.title_block h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 120%;
+  color: #1d2130;
+}
+
+.events_lines {
+  width: 80px;
+  height: 1px;
+  background: black;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.subtitle_block {
+  display: flex;
+}
+.subtitle_block h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 124%;
+  max-width: 350px;
+  margin-left: 30px;
+}
+.subtitle_blcok p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1d2130;
+}
+
+.name_block {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+}
+.events_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 140%;
+  color: #1d2130;
+}
+.naem_line {
+  width: 70%;
+  height: 1px;
+  background: black;
+  margin-left: 10px;
+}
+
+@media (max-width: 920px) {
+  .title_slider {
+    font-size: 19px;
+  }
+  .subtitle_slider {
+    color: #fff;
+    font-size: 19px;
+  }
+  .title_two {
+    font-size: 30px;
+  }
+  .more {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  .img_two {
+    padding-left: 0 !important;
+  }
+  .partner_name_block {
+    margin-bottom: 80px;
+  }
+  .partner_title {
+    font-size: 19px;
+  }
+  .partner_block {
+    margin-bottom: 30px;
+    object-fit: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .partner_block p {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .partner_block img {
+    object-fit: cover;
+    width: 50%;
+  }
+  .item_name {
+    font-size: 19px;
+  }
+  .question_block p {
+    font-size: 17px;
+  }
+  .project_name_two {
+    font-size: 30px;
+  }
+  .card {
+    height: 400px;
+    background-image: url(https://www.collinsdictionary.com/images/full/garden_116164459.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-bottom: 30px;
+  }
+  .red_news_title {
+    margin: 1.5rem 0 !important;
+    font-size: 30px;
+  }
+  .news_block {
+    margin-bottom: 30px;
+  }
+
+  .name_block {
+    margin: 0.5rem 0;
+  }
+  .events_title {
+    font-size: 25px;
+  }
+  .subtitle_block h4 {
+    font-size: 20px;
+  }
+} ;

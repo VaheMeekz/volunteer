@@ -1,0 +1,93 @@
+.nav {
+  width: 100%;
+  position: fixed;
+  z-index: 10000000;
+}
+.burger_block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(159, 224, 151);
+  padding: 15px 20px;
+}
+
+.burger_block p {
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin: 0 !important;
+}
+
+.activ_nav {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  background: rgb(159, 224, 151);
+  height: 100vh;
+  z-index: 100000;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  opacity: 1;
+  padding: 20px 0;
+  margin: 0 !important;
+  transition: all 0.5s;
+}
+
+.activ_nav li {
+  /* width: 100%; */
+  /* text-align: center; */
+}
+.activ_nav a {
+  font-size: 30px !important;
+  font-weight: 400 !important;
+  color: white !important;
+  font-family: "Roboto" sans-serif;
+}
+.activ_nav a:hover {
+  font-size: 30px !important;
+  font-weight: 400 !important;
+  color: rgb(21, 18, 18) !important;
+  font-family: "Roboto" sans-serif;
+  transition: 0.5s;
+}
+
+.just_nav {
+  width: 100%;
+  position: absolute;
+  left: -500px;
+  top: 90px;
+  text-align: center;
+  background: rgb(159, 224, 151);
+  opacity: 0;
+  transition: all 0.5s;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.responseStyle {
+  display: flex;
+  gap: 15px;
+}
+.responseStyle svg {
+  display: block !important;
+  width: 15rem;
+  z-index: 1500000000;
+}
+
+.responseStyle h5 {
+  margin: 0 !important;
+}
+
+.acard_nav li a {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: 500;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
