@@ -1,7 +1,7 @@
 //style
 import styles from "./news.module.css";
 
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import {Container, Row, Col} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
@@ -9,18 +9,17 @@ import {useTranslation} from "react-i18next";
 
 // custom imports
 import {newsAction} from "../../redux/actions/newsAction";
-import news from "../../utils/newsList";
 
 const News = () => {
     const dispatch = useDispatch();
     const {t} = useTranslation();
+    const [page,setPage] = useState(1)
 
     const newsdata = useSelector((state) => state.newsReducer.news);
     useEffect(() => {
-        dispatch(newsAction());
-    }, []);
+        dispatch(newsAction(page));
+    }, [page]);
 
-    console.log(newsdata, "newsdatanewsdata");
     const newsData = newsdata?.products
         ? newsdata?.products?.map((i) => {
             return (
@@ -51,6 +50,16 @@ const News = () => {
                     <h3 className={styles.read_news}>{t("latest")}</h3>
                     <Row>{newsData}</Row>
                 </Container>
+               <div className={styles.seeMoreBox}>
+                   {
+                       newsdata?.count !== newsdata?.products?.length && (
+                           <button className={styles.seeMoreBtn} onClick={()=>setPage(page+1)}>
+                               {t('seeMore')}
+                           </button>
+                       )
+                   }
+
+               </div>
             </section>
         </>
     );

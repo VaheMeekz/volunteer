@@ -79,44 +79,6 @@ const About = () => {
           </Row>
         </Container>
       </section>
-      {/*<section className={styles.section_two}>*/}
-      {/*  <Container>*/}
-      {/*    <Row>*/}
-      {/*      <Col sm={12} md={6} lg={6}>*/}
-      {/*        <div className={styles.mission_block}>*/}
-      {/*          <h2 className={styles.mission_title}>our mission</h2>*/}
-      {/*          <h5 className={styles.mission_subTitile}>*/}
-      {/*            We make the world we save our own environment*/}
-      {/*          </h5>*/}
-      {/*          <p className={styles.mission_text}>*/}
-      {/*            Lorem ipsum dolor sit amet, consectetur adipiscing elit.*/}
-      {/*            Suspendisse varius enim in eros elementum tristique. Duis*/}
-      {/*            cursus, mi quis viverra ornare, eros dolor interdum nulla, ut*/}
-      {/*            commodo diam libero vitae erat. Aenean faucibus nibh et justo*/}
-      {/*            cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus*/}
-      {/*            tristique posuere.*/}
-      {/*          </p>*/}
-      {/*        </div>*/}
-      {/*      </Col>*/}
-      {/*      <Col sm={12} md={6} lg={6}>*/}
-      {/*        <div className={styles.mission_block}>*/}
-      {/*          <h2 className={styles.mission_title}>our mission</h2>*/}
-      {/*          <h5 className={styles.mission_subTitile}>*/}
-      {/*            We make the world we save our own environment*/}
-      {/*          </h5>*/}
-      {/*          <p className={styles.mission_text}>*/}
-      {/*            Lorem ipsum dolor sit amet, consectetur adipiscing elit.*/}
-      {/*            Suspendisse varius enim in eros elementum tristique. Duis*/}
-      {/*            cursus, mi quis viverra ornare, eros dolor interdum nulla, ut*/}
-      {/*            commodo diam libero vitae erat. Aenean faucibus nibh et justo*/}
-      {/*            cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus*/}
-      {/*            tristique posuere.*/}
-      {/*          </p>*/}
-      {/*        </div>*/}
-      {/*      </Col>*/}
-      {/*    </Row>*/}
-      {/*  </Container>*/}
-      {/*</section>*/}
       <section>
         <Container>
           <Row>
@@ -153,7 +115,7 @@ const About = () => {
                             : i.descriptionOneEn.substring(0, 30)}
                         </p>
                         <Link to={`/details/${i.id}`}>
-                          <button className={styles.see_more}>See More</button>
+                          <button className={styles.see_more}>{t('seeMore')}</button>
                         </Link>
                       </div>
                     </Col>

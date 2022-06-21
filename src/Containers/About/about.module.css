@@ -181,6 +181,10 @@
   background-repeat: no-repeat;
   border-radius: 20px;
 }
+.card:hover{
+  transition: .2s;
+  opacity: 0.5;
+}
 .card_name {
   color: #fff;
   max-width: 300px;
@@ -195,9 +199,17 @@
   color: #fff;
   padding: 10px 30px;
   background: #03b4a0;
+  border: 1px solid #03B4A0;
   margin-left: 30px;
   border-radius: 10px;
   margin-top: 40px;
+  font-weight: bold;
+}
+.see_more:hover{
+  background: white;
+  border: 1px solid #03B4A0;
+  transition: .2s;
+  color: #03B4A0;
 }
 
 @media (max-width: 930px) {
@@ -247,4 +259,4 @@
     color: #1d2130;
     margin-left: 10px;
   }
-} ;
+}

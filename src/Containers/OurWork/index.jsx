@@ -37,7 +37,6 @@ const OurWork = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     speed: 500,
-    infinite: true,
     autoplay: true,
   };
 

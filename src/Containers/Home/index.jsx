@@ -269,7 +269,7 @@ const Home = () => {
                                                     : i?.descriptionOneEn.substring(0, 30)}
                                             </p>
                                             <Link to={`/details/${i?.id}`}>
-                                                <button className={styles.see_more}>See More</button>
+                                                <button className={styles.see_more}>{t('seeMore')}</button>
                                             </Link>
                                         </div>
                                     </Col>

@@ -81,3 +81,28 @@
 }
 
 }
+
+.seeMoreBox{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seeMoreBtn {
+  color: #fff;
+  padding: 10px 30px;
+  background: #03b4a0;
+  border: 1px solid #03B4A0;
+  margin-left: 30px;
+  border-radius: 10px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.seeMoreBtn:hover{
+  background: white;
+  border: 1px solid #03B4A0;
+  transition: .2s;
+  color: #03B4A0;
+}
