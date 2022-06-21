@@ -10,3 +10,4 @@ export const DOWNLOAD_PDF = "DOWNLOAD_PDF";
 export const ABOUT_BANNER = "ABOUT_BANNER";
 export const GET_EVETS = "GET_EVETS";
 export const GET_SINGLE_EVENT = "GET_SINGLE_EVENT";
+export const GET_SINGLE_NEWS = 'GET_SINGLE_NEWS'

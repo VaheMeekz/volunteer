@@ -1,7 +1,9 @@
-import { NEWS_DATA } from "../types";
+import {GET_SINGLE_NEWS, NEWS_DATA} from "../types";
 
 const initialState = {
   news: null,
+  single:null,
+  loading:true
 };
 
 export const newsReducer = (state = initialState, action) => {
@@ -11,6 +13,12 @@ export const newsReducer = (state = initialState, action) => {
         ...state,
         news: action.payload,
       };
+    case GET_SINGLE_NEWS:
+      return {
+        ...state,
+        single: action.payload,
+        loading: false
+      }
 
     default:
       return state;
