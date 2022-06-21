@@ -80,6 +80,7 @@
   height: 578px;
   object-fit: cover;
   padding-left: 20%;
+  margin-bottom: 20px;
 }
 .img_two img {
   width: 100%;
@@ -91,15 +92,21 @@
 .more {
   padding: 10px 30px;
   border-radius: 10px;
+  border: 1px solid #03B4A0;
   color: #fff;
   background: #03b4a0;
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 20px;
   line-height: 23px;
   text-align: right;
-  color: #ffffff;
+}
+
+.more:hover{
+  background: white;
+  border: 1px solid #03B4A0;
+  color: #03B4A0;
+  transition: .2s;
 }
 .partner_name_block {
   width: 100%;
@@ -136,7 +143,7 @@
   object-fit: cover;
 }
 .section_two {
-  margin: 0 0 3rem 0;
+  margin: 20px 0 3rem 0;
 }
 .item_name_block {
   display: flex;
@@ -226,6 +233,12 @@
   background-position: 50% 50%;
   background-repeat: no-repeat;
   border-radius: 20px;
+  cursor: pointer;
+}
+
+.card:hover{
+  transition: .2s;
+  opacity: 0.5;
 }
 .card_name {
   color: #fff;
@@ -241,9 +254,18 @@
   color: #fff;
   padding: 10px 30px;
   background: #03b4a0;
+  border: 1px solid #03B4A0;
   margin-left: 30px;
   border-radius: 10px;
   margin-top: 40px;
+  font-weight: bold;
+}
+
+.see_more:hover{
+  background: white;
+  border: 1px solid #03B4A0;
+  transition: .2s;
+  color: #03B4A0;
 }
 .red_news_title {
   margin: 4rem 0;
@@ -255,12 +277,18 @@
   color: #1d2130;
 }
 .news_title {
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 600;
+  font-size: 25px;
   line-height: 150%;
   color: #1c1d28;
+}
+
+.eventBox:hover{
+  opacity: 0.5;
+}
+.homeAboutBox{
+  margin-bottom: 20px !important;
 }
 .news_text {
   font-family: "Roboto";
@@ -272,6 +300,13 @@
 }
 .news_img_block img {
   border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.news_img_block img:hover{
+  opacity: 0.5;
+  transition: .2s;
+  cursor: pointer;
 }
 
 .Eventd_First_block {
@@ -421,6 +456,7 @@
   }
   .news_block {
     margin-bottom: 30px;
+    cursor: pointer;
   }
 
   .name_block {
@@ -432,4 +468,4 @@
   .subtitle_block h4 {
     font-size: 20px;
   }
-} ;
+}

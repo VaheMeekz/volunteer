@@ -69,7 +69,7 @@ const Detail2 = () => {
             {projectitem
               ? projectitem.slice(0, 3).map((i) => {
                   return (
-                    <Col sm={12} md={6} lg={4} key={i.id} className="mt-5">
+                    <Col sm={12} md={6} lg={4} key={i.id} className={`mt-5 ${styles.projBox}`}>
                       <div
                         className={styles.card}
                         style={{

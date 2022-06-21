@@ -1,9 +1,11 @@
-import { Modal,Button } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 import { useSelector } from "react-redux";
-
+import {useTranslation} from "react-i18next";
+import styles from "./home.module.css"
 const EventModal = (props) => {
   const event = useSelector((state) => state.aboutReducer.singleEvent);
   const loading = useSelector((state) => state.aboutReducer.singleLoading);
+  const { t } = useTranslation();
   return (
     <Modal
       {...props}
@@ -27,7 +29,7 @@ const EventModal = (props) => {
           : event?.descriptionEn}
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+        <button className={styles.more} onClick={props.onHide}>{t('close')}</button>
       </Modal.Footer>
     </Modal>
   );

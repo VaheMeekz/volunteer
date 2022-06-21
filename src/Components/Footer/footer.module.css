@@ -1,5 +1,6 @@
 .bacground {
-  background-image: url("https://media.istockphoto.com/photos/jungle-leaves-background-picture-id1160380152?b=1&k=20&m=1160380152&s=170667a&w=0&h=5_D5IKWYpdsCDy7pX_dcgwpS0_4kOs5ySbiGCr0VAzE=");
+  /*background-image: url("https://media.istockphoto.com/photos/jungle-leaves-background-picture-id1160380152?b=1&k=20&m=1160380152&s=170667a&w=0&h=5_D5IKWYpdsCDy7pX_dcgwpS0_4kOs5ySbiGCr0VAzE=");*/
+  background-image: url("https://images.wallpaperscraft.com/image/single/leaves_plant_dark_129098_1440x900.jpg");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -30,13 +31,15 @@
 
 .network_block {
   display: flex;
-  justify-content: space-evenly;
+  /*justify-content: space-evenly;*/
   width: 100%;
   align-items: center;
+  justify-content: start;
 }
 .network_block svg {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
 }
 
 .ull li {
@@ -49,7 +52,7 @@
 .ull li p {
   margin-left: 15px;
   color: #fff;
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 0 !important;
 }
 .ull li svg path {
@@ -57,8 +60,8 @@
 }
 
 .ull li svg {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
 
 .network_block svg path {

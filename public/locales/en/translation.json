@@ -48,7 +48,10 @@
   "ourN":"Our News",
   "ourP":"Our Project",
   "info":"Information",
-  "learn_more":"learn more"
-
+  "learn_more":"Learn more",
+  "contacts": "Contacts",
+  "location": "Location",
+  "lastName": "Last name",
+  "nextEvent": "NEXT EVENT"
 
 }

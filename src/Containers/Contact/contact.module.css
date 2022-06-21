@@ -1,6 +1,6 @@
 .section {
   background-color: #d7ece5;
-  padding: 30px;
+  padding:50px 30px;
 }
 .title_block {
   width: 100%;
@@ -107,7 +107,7 @@
 .input {
   width: 100%;
   border: none;
-  border-bottom: 1px solid #d7ece5;
+  border-bottom: 1px solid #242a2a;
   margin-bottom: 30px;
   text-indent: 15px;
 }
@@ -117,13 +117,13 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 160%;
-  color: #1d2130;
+  color:  #11141a;
   opacity: 0.6;
   margin-bottom: 20px;
 }
 .textarea {
   width: 100%;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #11141a;
   text-indent: 15px;
 }
 
@@ -133,12 +133,16 @@
 .submit {
   padding: 10px 40px;
   color: #fff;
-  border-radius: 20px;
-  background: #26ce69;
+  border-radius: 5px;
+  background: #03B4A0;
+  border:1px solid  #03B4A0;
+  font-weight: bold;
 }
 .submit:hover {
-  background: #0c7f3a;
+  background:white;
+  border:1px solid  #03B4A0;
   transition: 0.4s;
+  color: #03B4A0;
 }
 .button_block {
   width: 100%;

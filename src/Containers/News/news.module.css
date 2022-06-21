@@ -34,9 +34,16 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 150%;
   color: #1c1d28;
+}
+.news_item_block img{
+  margin-bottom: 10px;
+}
+.news_item_block img:hover{
+  transition: .2s;
+  opacity: 0.5;
 }
 .news_item_block p {
   font-family: "Roboto";
